@@ -1,0 +1,3 @@
+ az deployment group create --resource-group bicep-from-scratch --template-file storageacc.bicep
+
+ az deployment sub create --location centralindia --template-file main.bicep  
